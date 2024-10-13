@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozy Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Cozy Coffee</div>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order">Order</a></li>
+                <li><a href="#loyalty">Loyalty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Cozy Coffee</h1>
+            <p>Your perfect cup awaits!</p>
+            <a href="#menu" class="btn">Explore Menu</a>
+        </section>
+
+        <section id="menu" class="menu">
+            <h2>Our Menu</h2>
+            <div class="menu-item">
+                <img src="coffee1.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich and bold coffee.</p>
+            </div>
+            <div class="menu-item">
+                <img src="coffee2.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <p>Creamy and smooth.</p>
+            </div>
+            <!-- Add more menu items as needed -->
+        </section>
+
+        <section id="order" class="order">
+            <h2>Order Online</h2>
+            <p>Seamlessly place your order from our menu!</p>
+            <a href="#" class="btn">Start Ordering</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Cozy Coffee. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f4ec;
+    color: #4a3b28;
+    margin: 0;
+}
+
+header {
+    background-color: #8b5a3e;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 2em;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('coffee-hero.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.btn {
+    background-color: #f5b700;
+    color: #4a3b28;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #8b5a3e;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
